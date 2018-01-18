@@ -10,8 +10,9 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
+        <h1> CTP </h1>
         <?php
-        // put your code here
+        
         ?>
     </body>
 </html>
