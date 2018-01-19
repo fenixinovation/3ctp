@@ -44,7 +44,7 @@
 
 
         <nav style="margin-bottom: 0" class="navbar navbar-default">
-            <div class="container-fluid btn-warning">
+            <div class="container-fluid bg-primary">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                         <span class="icon-bar">a</span>
@@ -56,14 +56,11 @@
                 <div class="collapse navbar-collapse " id="myNavbar">
                     <ul  class="nav navbar-nav text-uppercase">
 
-                        <li ><a style="color: #ffffff" href="index.php">Home</a></li>
+                        <li ><a style="color: #ffffff" href="pagina_azul.html">Home</a></li>
                         <li><a style="color: #ffffff" href="#">Cursos</a></li>
                         <li><a style="color: #ffffff" href="#">Palestras</a></li>
                         <li><a style="color: #ffffff" href="#">Suporte</a></li>
-                      
-                        <li><a style="color: #ffffff" href="index_azul.php">Azul</a></li>
-
-                        
+                        <li><a style="color: #ffffff" href="index.php">Amarelo</a></li>
 
                       <li><a style="color: #ffffff" href="#" data-toggle="modal" data-target="#myModalEnvioEmailCliente">Contacte-nos</a></li>
                     </ul>
@@ -89,11 +86,12 @@
         </nav>
 
 
-        <div id="slideShow" style="margin: 0px; background: url(imagens/fotofundoQuinho.png); " class="row jumbotron  text-center bg-primary">
+       <div id="slideShow" style="margin: 0px; background: url(imagens/fotofundoQuinho.png); " class="row jumbotron  text-center bg-primary">
             <div class="col-md-8">
-                <br>   <br>   <br>   <br>
-           <!--    <h1 id="textoSlide">3CTP</h1>-->
-            </div>
+              <!--    <h1 id="textoSlide">3CTP</h1>
+                <img style="max-width: 100%; margin: 0" src="imagens/fotofundo.png" alt=""/>
+                -->
+               </div>
               <div class="col-md-4">
                  <div class="bannerrotativo">
                      <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>
@@ -108,7 +106,7 @@
 
 
                         </div>
-                        <div class="descEvento  btn-warning">
+                        <div class="descEvento bg-primary">
                       Comissão Organizadora - 3CTP
 
                         </div></a>
@@ -122,7 +120,7 @@
                         <div id="imgloop">
                             <img src="imagens/workshop/foto6.jpg" class="img-thumbnail" width="300" height="200"/>
 </div>
-                        <div class="descEvento btn-warning">
+                        <div class="descEvento bg-primary">
                           Participantes do curso de Virtualização
 
                         </div></a>
@@ -139,7 +137,7 @@
 
 
                         </div>
-                        <div class="descEvento btn-warning">
+                        <div class="descEvento bg-primary">
                          Formador: Henriques Zacarias.
                        
                         </div></a>
@@ -155,7 +153,7 @@
 
 
                         </div>
-                        <div class="descEvento btn-warning">
+                        <div class="descEvento bg-primary">
                          Formador: Abel Zacarias.
 
                         </div></a>
@@ -171,7 +169,7 @@
 
 
                         </div>
-                        <div class="descEvento btn-warning">
+                        <div class="descEvento bg-primary">
                          Formador: Evaldo Dos Prazeres.
                         </div></a>
                     
@@ -187,7 +185,7 @@
 
 
                         </div>
-                        <div class="descEvento btn-warning">
+                        <div class="descEvento bg-primary">
                        Formador: Eugénio Manuel.
                         </div></a>
                     
@@ -202,14 +200,13 @@
 
 
                         </div>
-                        <div class="descEvento btn-warning">
+                        <div class="descEvento bg-primary">
                      Formador: Francisco Chimuco
                         </div></a>
                     
                 </article>
                     </li>
-                    
-                      <li>
+                       <li>
                        <article id="loop-eventos">
                   
                     <a href="#">
@@ -218,7 +215,7 @@
 
 
                         </div>
-                        <div class="descEvento btn-warning">
+                        <div class="descEvento bg-primary">
                      Formador: João Bioco
                         </div></a>
                     
@@ -245,8 +242,7 @@
                 </div>
 
                 <div  class="col-md-5 ">
-                    <h2 id="inscricao" >      <a  href="#">  <button class="btn btn-warning">Inscreva-te</button>
-                           </a></h2> 
+                      <a  href="#"><button class="btn-primary">Inscreva-te </button> </a>
                 </div>
 
 
@@ -262,7 +258,7 @@
         <div id="cursos" >
             <br><br>
 
-            <h2 class="text-warning" style="margin: 0; text-align: center"><b>Painel dos cursos pré-evento </b></h2>
+            <h2 class="text-primary" style="margin: 0; text-align: center"><b>Painel dos cursos pré-evento </b></h2>
             <hr>
             <div  class="row">
 
@@ -276,11 +272,11 @@
 
                         </div>
                         <div class=" desc text-left">
-                            <h5 >
+                            <h5>
                                 Introdução a programação<br> com python
                             </h5>
                             <hr>
-                            <h4 class="text-warning">Março/2018</h4>
+                            <h4 class="text-success">Março/2018</h4>
 
                             <h4 class="text-warning">&star;&star;&star;&star;&star;</h4>
 
@@ -304,7 +300,7 @@
                                 Análise de dados com <br> ferramente R
                             </h5>
                             <hr>
-                            <h4 class="text-warning">Março/2018</h4>
+                            <h4 class="text-success">Março/2018</h4>
 
                             <h4 class="text-warning">&star;&star;&star;&star;&star;</h4>
 
@@ -328,7 +324,7 @@
                                 Informacion Tecnology (IT) <br> Governance
                             </h5>
                             <hr>
-                            <h4 class="text-warning">Março/2018</h4>
+                            <h4 class="text-success">Março/2018</h4>
 
                             <h4 class="text-warning">&star;&star;&star;&star;&star;</h4>
 
@@ -352,7 +348,7 @@
                                 Administração de Sistemas<br> com Linux
                             </h5>
                             <hr>
-                            <h4 class="text-warning">Março/2018</h4>
+                            <h4 class="text-success">Março/2018</h4>
 
                             <h4 class="text-warning">&star;&star;&star;&star;&star;</h4>
 
@@ -374,7 +370,7 @@
                                 Modle para<br> Professores
                             </h5>
                             <hr>
-                            <h4 class="text-warning">Março/2018</h4>
+                            <h4 class="text-success">Março/2018</h4>
 
                             <h4 class="text-warning">&star;&star;&star;&star;&star;</h4>
 
@@ -396,7 +392,7 @@
                                 Visão computacional<br> com Matlab
                             </h5>
                             <hr>
-                            <h4 class="text-warning">Março/2018</h4>
+                            <h4 class="text-success">Março/2018</h4>
 
                             <h4 class="text-warning">&star;&star;&star;&star;&star;</h4>
 
@@ -418,7 +414,7 @@
                                 Introdução a virtualização<br> de Maquinas
                             </h5>
                             <hr>
-                            <h4 class="text-warning">BREVEMENTE</h4>
+                            <h4 class="text-success">BREVEMENTE</h4>
 
                             <h4 class="text-warning">&star;&star;&star;&star;&star;</h4>
 
@@ -440,7 +436,7 @@
                                 Modelação Baseada em Agentes <br> ABM
                             </h5>
                             <hr>
-                            <h4 class="text-warning">BREVEMENTE</h4>
+                            <h4 class="text-success">BREVEMENTE</h4>
 
                             <h4 class="text-warning">&star;&star;&star;&star;&star;</h4>
 
@@ -460,7 +456,7 @@
             <div class="row">
 
                 <div class="col-md-12">
-                    <a href="#" >  <h2  style="margin: 0; text-align: center"><b> <small> <button	type="submit" class="btn btn-warning">VER MAIS &DoubleRightArrow;</button> </small></b></h2></a>  
+                    <a href="#" >  <h2  style="margin: 0; text-align: center"><b> <small  class="bg-primary"> VER MAIS &DoubleRightArrow;</small></b></h2></a>  
 
                     <hr>
                 </div>
@@ -469,7 +465,7 @@
             <div class="row">
 
                 <div class=" text-center">
-                    <h2 class="text-warning" style="margin: 0; text-align: center"><b>  Eventos Recentes</b></h2>  
+                    <h2 class="text-primary" style="margin: 0; text-align: center"><b>  Eventos Recentes</b></h2>  
                     <hr>
                     
                     
@@ -481,7 +477,7 @@
 
 
                         </div>
-                        <div class="descEvento btn-warning">
+                        <div class="descEvento  bg-primary">
                             3CTP ISCED - Huila, 2017 - Organização
 
                         </div></a>
@@ -496,7 +492,7 @@
 
 
                         </div>
-                        <div class="descEvento btn-warning">
+                        <div class="descEvento bg-primary">
                           Participantes do curso de Virtualização
 
                         </div></a>
@@ -512,7 +508,7 @@
 
 
                         </div>
-                        <div class="descEvento  btn-warning">
+                        <div class="descEvento  bg-primary">
                            3C, tendências e paradigma - ISCE-Huila
 
                         </div></a>
@@ -532,7 +528,7 @@
                     
                       <h6 > Veja o feedback no facebook</h6>
                       
-                      <a href="#">   <h4 > <b class="bg-primary">  <button	type="submit" class="btn btn-warning">Ler todos comentarios  &DoubleRightArrow;</button> </b> </h4></a>    
+                      <a href="#">   <h4 > <b class="bg-primary">Ler todos comentarios </b> </h4></a>    
                 </div>
                 <div class="col-md-6 text-left">
                     <p style="font-size: 12px">
@@ -548,7 +544,7 @@
 
             
            
-             <div class=" btn-warning row featurette">
+             <div class=" bg-primary row featurette">
                 <div class="col-md-4">
                     <fieldset>
                         <legend style="color: #ffffff; margin-left: 30px">Contacto</legend>
@@ -630,28 +626,19 @@
 
 
 
-            <footer class="bg-warning">
-     <div style="margin: 0px; background: #cccccc">
-            <div class="row">
-             <div class="container-fluid ">
+<footer>
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid ">
 
 
-                 <p class="pull-right" style="margin-right: 30px"><a href="#">TOPO</a></p>
-                        <p class="text-warning text-center"><br>&copy; <b>Conferência de Ciências da Computação, Tendencias e Paradígmas <a href="#" class="text-warning ">-3CTP </a></b>
+                        <p class="pull-right"><a href="#">TOPO</a></p>
+                        <p class="text-primary text-center"><br>&copy; <b>Conferência de Ciências da Computação, Tendencias e Paradígmas <a href="#">-3CTP </a></b>
                             <img src="imagens/logo.jpg" width="50" height="30"/>
                            
 
                         </p>
                     </div>
-
-            </div>
-
-
-
-
-
-
-        </div>
+                </nav>
             </footer>
 
 
@@ -668,8 +655,8 @@
                 <!-- Modal content-->
                 <form class="form-horizontal" role="form" action="" method="POST">
                     <div class="modal-content">
-                        <div class="panel panel-warning">
-                         <div class="modal-header btn-warning">
+                        <div class="panel panel-primary">
+                         <div class="modal-header btn-primary">
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
                             <h4 class="modal-title">Envie seu email para 
                                 <img src="imagens/logo.png"  alt="" width="250" height="50"/></h4>
@@ -712,8 +699,8 @@
 
                         </div>
                         <div class="modal-footer">
-                            <button	type="submit" class="btn btn-warning">Enviar</button>
-                            <button	type="reset" class="btn btn-warning">Limpar</button>
+                            <button	type="submit" class="btn btn-primary">Enviar</button>
+                            <button	type="reset" class="btn btn-primary">Limpar</button>
                             <button type="submit" class="btn btn-default" data-dismiss="modal">Cancelar</button>
                         </div>
                          </div></div></div>
